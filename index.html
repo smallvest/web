@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>九宫格</title>
+		<style type="text/css">
+			* {
+				padding: 0;
+				margin: 0;
+			}
+
+			.wrap {
+				width: 100%;
+				text-align: center;
+				margin-top: 2%;
+			}
+
+			.square {
+				background-color: orange;
+				width: 30%;
+				margin: 0.5%;
+				border-radius: 10%;
+				display: inline-block;
+				/* 使用到的display:inline-block这个是什么意思呢？
+				它指的是将本身设置成为block显示类型，
+				将自己的父元素设置为inline显示类型。
+				再在外层的大框上加上text-align:center
+				即可以实现元素的居中（注意此时内层的float去掉） */
+				padding-top: 30%;
+				/* padding-top 能使元素的高度等于他宽度的一个百分比 */
+
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<div class="square">
+			</div>
+			<div class="square">
+			</div>
+			<div class="square">
+			</div>
+			<div class="square">
+			</div>
+			<div class="square">
+			</div>
+			<div class="square">
+			</div>
+			<div class="square">
+			</div>
+			<div class="square">
+			</div>
+			<div class="square">
+			</div>
+		</div>
+	</body>
+</html>
